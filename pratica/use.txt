@@ -1,0 +1,20 @@
+visual studio:
+0. Set Device Target 
+   -> ESP-IDF: Set Espressif Device Target
+1. Build
+   -> ESP-IDF: Build your Project
+2. Flash 
+   -> ESP-IDF: Flash your Project
+3. Monitor device
+   -> ESP-IDF: Monitor your Device 
+
+command line:
+   idf.py create-project NAME
+   idf.py set-target esp32c3
+   idf.py build
+   idf.py flash
+   idf.py monitor
+
+   alias get_idf='. /home/rafael/esp/v5.2/esp-idf/export.sh'
+
+
